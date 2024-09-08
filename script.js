@@ -17,6 +17,7 @@ if (nombre == "" || nombre == null) {
     let continuar= true; //indico que si continuar es true se van a sumar los precios de los productos
 
 
+
     while(continuar){
     let eleccionproducto = prompt('Elige un número para agregar a nuestro carro:' + productos);
     if (eleccionproducto == "" || eleccionproducto == null) {
@@ -42,7 +43,7 @@ if (nombre == "" || nombre == null) {
         }
     }
 
-    
+        //Mientras el confirm tenga un numero valido se va a poder ir agregando nuevos productos
     continuar=confirm('Quiere elegir mas productos?');
     if(!continuar){
         break;
